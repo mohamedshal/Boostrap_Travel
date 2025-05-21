@@ -73,6 +73,24 @@ nav .navbar-nav .nav-link {
 .team .card-body i {
     font-size: 20px;
 }
+.card {
+    height: 800px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body p {
+  flex-grow: 1; /* Paragraph takes all available vertical space */
+}
+
+.card-body button {
+    margin: auto auto 0;
+    width: fit-content;
+}
+
 .portfolio .card {
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
